@@ -50,7 +50,7 @@ using namespace std;
 }
 
 /*! \cond DOCS_EXCLUDE */
-CONTRACT BancorNetwork : public eosio::contract { /*! \endcond */
+class [[eosio::contract("bancornetwrk")]] BancorNetwork : public eosio::contract { /*! \endcond */
     public:
         using contract::contract;
 

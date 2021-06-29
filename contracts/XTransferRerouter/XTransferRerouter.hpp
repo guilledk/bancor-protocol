@@ -27,7 +27,7 @@ using namespace std;
     END_EVENT()
 
 /*! \cond DOCS_EXCLUDE */
-CONTRACT XTransferRerouter : public contract { /*! \endcond */
+class [[eosio::contract("bancorrouter")]] XTransferRerouter : public contract { /*! \endcond */
     public:
         using contract::contract;
 

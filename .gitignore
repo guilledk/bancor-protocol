@@ -1,0 +1,5 @@
+.commit
+.python-version
+**/.binfo
+**/build
+**/__pycache__

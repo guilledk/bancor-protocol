@@ -70,7 +70,7 @@ using namespace std;
     END_EVENT()
 
 /*! \cond DOCS_EXCLUDE */
-CONTRACT BancorX : public contract { /*! \endcond */
+class [[eosio::contract("bancorbridge")]] BancorX : public contract { /*! \endcond */
     public:
         using contract::contract;
 

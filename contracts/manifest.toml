@@ -1,0 +1,15 @@
+[BancorConverter]
+name = 'bancorconv'
+cdt = '1.7.0'
+
+[BancorNetwork]
+name = 'bancornetwrk'
+cdt = '1.7.0'
+
+[BancorX]
+name = 'bancorbridge'
+cdt = '1.7.0'
+
+[XTransferRerouter]
+name = 'bancorrouter'
+cdt = '1.7.0'
